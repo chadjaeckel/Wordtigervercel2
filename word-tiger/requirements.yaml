@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "For page transitions, animations, and premium visual feedback"
+  "canvas-confetti": "For celebration animations when players hit milestones"
+  "@types/canvas-confetti": "Type definitions for canvas-confetti"
+  "lucide-react": "Beautiful icons for the interface"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+  "zustand": "Lightweight state management for the game state"
+
+images:
+  - path: "artifacts/word-tiger/public/images/tiger-bg.png"
+    description: "A dark, moody, abstract background with deep amber and orange energy lines reminiscent of tiger stripes, glowing subtly against a deep charcoal and black backdrop"
+    aspect_ratio: "16:9"
+  - path: "artifacts/word-tiger/public/images/logo-icon.png"
+    description: "A sleek, geometric, minimal icon of a tiger head, using neon orange and amber gradients on a transparent background"
+    aspect_ratio: "1:1"
+
+notes:
+  - The game is completely client-side. The dictionary is loaded from public/words.txt
+  - Speech recognition relies on the Web Speech API which is available in most modern browsers (Chrome/Edge/Safari).
